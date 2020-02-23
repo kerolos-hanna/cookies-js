@@ -1,0 +1,56 @@
+h1{
+  text-align: center;
+  background-color: royalblue;
+  border-radius: 25px;
+}
+
+form {
+  border: 1px solid black;
+  width: 50%;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.form-group {
+  margin: 5px;
+  font-size: 20px;
+  font-family: tahoma;
+}
+
+label {
+  width: 25%;
+  display: inline-block;
+}
+
+/* .form-group>input,
+select {
+  width: 60%;
+} */
+
+.form-group>[type=submit] {
+  display: block;
+  margin: 5px auto;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: royalblue;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 2px 2px 3px grey;
+  outline: none;
+  transition: 0.25s;
+}
+
+[type=submit]:hover {
+  cursor: pointer;
+}
+
+[type=submit]:active {
+  transform: scale(1.1);
+}
+
+#div{
+  font-size: 25;
+  padding: 10px;
+}
